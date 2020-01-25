@@ -1,0 +1,70 @@
+/**
+* UFRJ - Universidade Federal do Rio de Janeiro
+
+* IM - Instituto de Matemática
+
+*
+
+* TMAA - Programação C/C++ & Banco de Dados
+
+* Professor: Milton Ramirez (milton@labma.ufrj.br)
+
+*
+
+* Nome1: Jean Sette Siqueira Vianna 
+
+* DRE:116027396
+
+*
+
+* Nome2: Antonio Frederico Nesti Lopes 
+
+* DRE:112079163
+
+*
+
+* Nome3: Gabriel Felipe de Oliveira Antão
+
+* DRE:114046394
+
+*
+
+* Rio de Janeiro, 21 de julho de 2018
+
+**/
+
+Este documento foi criado no intuito de ressaltar alguns pontos importantes sobre o trabalho. Para começar, esse nosso último trabalho tem como objetivo levantar algumas questões interessantes sobre a prestção de contas de candidatos e partidos nos estados do Rio de Janeiro e São Paulo durante as Eleições de 2012, 2014 e 2016. E para responder as questões levantadas foram baixados os seguintes arquivos que são encontrados no link (http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais-1/repositorio-de-dados-eleitorais). São eles :
+
+1) 2012: dentro da pasta prestação_final_2012 esses arquivos são encontrados:
+	- despesas_candidatos_2012_RJ
+	- despesas_partidos_2012_RJ
+	- despesas_partidos_2012_SP
+	- receitas_partidos_2012_RJ
+	- receitas_partidos_2012_SP
+
+2) 2014: vá em prestação_final_2014 e encontre esses arquivos:
+	- despesas_partidos_2014_RJ
+	- despesas_partidos_2014_SP
+	- receitas_partidos_2014_RJ
+	- receitas_partidos_2014_SP
+
+3) 2016: agora em prestação_contas_final_2016 pegue os seguintes:	
+	- despesas_partidos_prestacao_contas_final_2016_RJ
+	- despesas_partidos_prestacao_contas_final_2016_SP
+	- receitas_candidatos_prestacao_contas_final_2016_RJ
+	- receitas_candidatos_prestacao_contas_final_2016_SP
+	- receitas_partidos_prestacao_contas_final_2016_RJ
+	- receitas_partidos_prestacao_contas_final_2016_SP
+
+Vale ressaltar que as perguntas enviadas previamente como primeira parte do trabalho, assim como a entidade relacional proposta, sofreram alterações uma vez que não se tinha passado pelos dados dos demais anos detalhadamente para poder perceber que algumas coisas não seriam viáveis para o trabalho, como por exemplo pelo motivo de alguns arquivos necessários para responder as antigas perguntas possuírem tamanho significante que demorariam bastante tempo para serem carregados na base. Por isso simplificamos um pouco as entidades e suas relações, e também as perguntas.
+
+Um dos desafios que o grupo encontrou durante a tarefa foi com o comando LOAD DATA INFILE que para iniciantes nessa linguagem de programação, como nós, levou um tempo para solucionarmos o problema. Entretanto, a solução encontrada foi colocar todos esses arquivos em um determinado diretório dentro da própria pasta do MySQL cujo enderenço é: C:\ProgramData\MySQL\MySQL Server 8.0\Uploads e é por isso que os LOAD DATA INFILE estão localizando os arquivos nesse diretório pois eles foram todos colocados lá.
+
+Para finalizar, os SCRIPTS SQL se encontram nas pastas respectivas as tarefas (ED2, ED3 e ED4) nas quais foram requisitadas. Está faltando o ED5 pois não conseguimos faze-lo e assim completar o trabalho, infelizmente. 
+
+
+
+
+
+
+

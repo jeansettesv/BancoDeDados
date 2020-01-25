@@ -1,0 +1,26 @@
+Tema Escolhido: Prestação de Contas Partidárias.
+
+Questões levantadas:
+
+1) Qual é a quantia total das despesas por partido em 2012, 2014 e 2016 nos estados do RJ e SP?
+2) Qual o perfil de gastos (coluna "tipo_despesa") dos Prefeitos que mais gastaram na campanha de 2012 no RJ? despesa_candidato_2012_rj
+O perfil é parecido com os dos que menos gastaram? 
+3) Quais são os maiores doadores nos estados do RJ e SP ano de 2016?
+4) Qual é a quantia total das receitas por partido em 2012, 2014 e 2016 nos estados do RJ e SP?
+5) Dentre os 3 maiores partidos (em numero de candidatos) do RJ, qual é cada saldo final (receita total - despesa total) no ano em questão?
+
+
+Nome: Jean Sette Siqueira Vianna
+DRE: 116027396
+
+Nome: Antonio Frederico Nesti Lopes
+DRE: 112079163
+
+Nome: Gabriel Felipe de Oliveira Antão
+DRE: 114046394
+
+Este tema foi escolhido pelo grupo pois no cenário em que o país se encontra é cada vez mais 
+questionável a verba destinada para este fim (eleições). Além disso é interessante ver a evolução temporal desses gastos 
+seja por partido, candidato ou região (consideramos para o estudo os anos de 2012, 2014 e 2016, os estados RJ e SP e apenas 
+os arquivos relacionados aos candidatos e aos partidos, deixando de fora os comitês).
+
